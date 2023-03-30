@@ -37,8 +37,8 @@ nav a {
 main {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 20px;
-	padding bottom: 0px
+	padding: 10px;
+	padding-bottom: 0px;
 }
 
 section {
@@ -47,7 +47,7 @@ section {
 
 article {
 	background-color: #f0f0f0;
-	padding: 20px;
+	padding: 30px;
 	border-radius: 10px;
 	margin-bottom: 20px;
 }
@@ -61,7 +61,8 @@ aside {
 	padding: 20px;
 	background-color: #f0f0f0;
 	border-radius: 10px;
-	margin-bottom: 20px;                                        
+	margin-bottom: 20px; 
+	margin-left: 10px;                                       
 }
 
 aside h3 {
@@ -74,4 +75,8 @@ footer {
 	color: #fff;
 	padding: 20px;
 	text-align: center;
+}
+img {
+	height: 205px;
+	width: 300px;
 }
